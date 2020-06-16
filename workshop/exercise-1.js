@@ -31,21 +31,54 @@ const notCode = [
 // Q1.1
 // How many names does Morty have? (use grandson)
 
+let wordCount = function(input){
+  return input.split(" ").length
+}
+console.log('1.1', wordCount(grandson))
+
 // Q1.2
 // Convert the alternateRicks string to an array. Console that array.
+
+let inArray = function(input){
+  return input.split(", ")
+}
+console.log('1.2', inArray(alternateRicks))
 
 // Q1.3
 // How many Ricks have been named in alternateRicks?
 
+let rickLength = function(input){
+  return inArray(input).length
+}
+console.log('1.3', rickLength(alternateRicks))
+
 // Q1.4
 // How many characters are there in rickSaying (without spaces)?
 
+let carNum = function(input){
+  return input.length
+}
+console.log('1.4', carNum(rickSaying))
+
 // Q1.4
 // Morty doesn't actually have a middle name. Console Morty's name without "Antoine".
+
+let middleNameRemover = function(input){
+  return(input.replace("Antoine ",""))
+}
+console.log('1.4', middleNameRemover(grandson))
 
 // Q1.5
 // Decode and console. the secret!
 // To do so, you will need to remove all of the notCode words.
 
+
+
+
 // Q1.6 (Stretch Goal)
 // Scary Terry is actually not an enemy. Remove him from the list and console only Rick's true enemies.
+
+let friendRemover = function(input){
+  return input.replace('Scary Terry,', '')
+}
+console.log('1.7' ,friendRemover(enemies))
