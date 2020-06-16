@@ -72,8 +72,9 @@ console.log('1.4', middleNameRemover(grandson))
 // Decode and console. the secret!
 // To do so, you will need to remove all of the notCode words.
 
-
-
+for (let i=0; i<notCode.length;i++){
+  console.log(secret.replace(notCode[i], ''))
+}
 
 // Q1.6 (Stretch Goal)
 // Scary Terry is actually not an enemy. Remove him from the list and console only Rick's true enemies.
@@ -81,4 +82,4 @@ console.log('1.4', middleNameRemover(grandson))
 let friendRemover = function(input){
   return input.replace('Scary Terry,', '')
 }
-console.log('1.7' ,friendRemover(enemies))
+console.log('1.6' ,friendRemover(enemies))
