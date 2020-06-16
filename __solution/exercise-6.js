@@ -7,11 +7,18 @@
 // Write a function that accepts a list of numbers and returns a new list with
 // all of the even numbers removed.
 function removeEvens(lst) {
-  const evens = lst.filter(function (number) {
-    return number % 2 !== 0;
-  });
+ // const evens = lst.filter(function (number) {
+    //if(return number % 2 !== 0);
+    //return number
+  //});
+    return lst.filter(function (number) {
+      if(number %2 !==0)
+      return number})
+  }
 
-  return evens;
-}
+  //return evens;
+//}
+
+
 // -------------------------------------------------------------------------
 console.log('Q4 removeEvens()', removeEvens([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]));
