@@ -22,4 +22,4 @@ function countBs(str) {
   return count;
 }
 // -------------------------------------------------------------------------
-console.log('Q1: ', countBs('BananaBabyBubbles'));
+console.log('Q1: ', countBs2('BananaBabyBubbles'));
