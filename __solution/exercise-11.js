@@ -15,3 +15,13 @@ function calculateAverage(grades) {
 }
 
 console.log(calculateAverage([76, 60, 83, 100, 78]));
+
+function calculateAverage2 (grades) {
+  let =sum = 0 ;
+  grades.forEach(function(grade){
+    sum = sum + grade
+  })
+  return sum/grades.length
+}
+
+console.log(calculateAverage2([76, 60, 83, 100, 78]));
