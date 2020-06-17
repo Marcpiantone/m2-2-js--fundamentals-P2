@@ -8,8 +8,9 @@
 // Otherwise ignore them completely.
 // For example: greeLong(["bob", "daniel"]) returns ["Hello daniel"]
 
-function greetLong(lst) {
-  // lst is an array of strings
-}
-// -------------------------------------------------------------------------
-console.log('Q7 greetLong()', greetLong(['Scott', 'Bob', 'Ric', 'Jim']));
+  function greetLong(lst) {
+    let filterLong = lst.filter(word => word.length >3)}
+    console.log(filterLong)
+
+  // -------------------------------------------------------------------------
+  console.log('Q7 greetLong()', greetLong(['Scott', 'Bob', 'Ric', 'Jim']));
