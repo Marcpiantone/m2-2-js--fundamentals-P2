@@ -9,7 +9,7 @@
 
 function allLong(lst) {
   const atLeastFive = function (word){
-    word=> word.lenght >= 6}
+    word=> word.lenght >= 5}
     return lst.every(atLeastFive);
 }
   // lst is an array of strings
