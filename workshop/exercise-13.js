@@ -13,7 +13,7 @@ function countBs(str) {
     const arr = str.split('');
     let counter = 0
     for(i=0; i<arr.length; i++){
-        if(arr[i]=="B"){
+        if(arr[i]==="B"){
         counter++
         }
     }
