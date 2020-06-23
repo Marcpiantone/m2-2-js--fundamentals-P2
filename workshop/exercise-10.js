@@ -8,11 +8,15 @@
 // Otherwise returns false.
 
 function allLong(lst) {
-  const atLeastFive = function (word){
-    word=> word.lenght >= 5}
-    return lst.every(atLeastFive);
+  const atLeastFive = function (word) {
+    return word.length >= 5;
+  };
+  return lst.every(atLeastFive);
 }
-  // lst is an array of strings
+// lst is an array of strings
 // -------------------------------------------------------------------------
-console.log('Q8 - case 1', allLong(['Scott', 'Bob', 'Ric', 'Jim']));
-console.log('Q8 - case 2', allLong(['Cyborg', 'Robin', 'Batman', 'Superman', 'Aquaman', 'Flash']));
+console.log("Q8 - case 1", allLong(["Scott", "Bob", "Ric", "Jim"]));
+console.log(
+  "Q8 - case 2",
+  allLong(["Cyborg", "Robin", "Batman", "Superman", "Aquaman", "Flash"])
+);

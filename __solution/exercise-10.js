@@ -1,4 +1,4 @@
-// You are not allowed to for or while loops.
+`2'// You are not allowed to for or while loops.
 // Instead focus on the array methods (filter, map, forEach, etc)
 
 // You will also need to verify that your functions work as expected. Be sure to test them. :)
